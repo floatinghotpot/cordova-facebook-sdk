@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-facebooksdk"
+        version="1.0.0">
+      
+    <name>Facebook SDK for Cordova</name>
+    <description>Add Facebook SDK to Cordova porject, as dependency for other plugins</description>
+    <author>Google</author>
+    <keywords>rjfun,cordova,facebook,sdk</keywords>
+    <repo>https://github.com/floatinghotpot/cordova-facebooksdk.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-facebooksdk/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+        <source-file src="facebook-android-sdk-4.7.0.aar" target-dir="libs" />
+     </platform>
+     
+    <platform name="amazon-fireos">
+        <source-file src="facebook-android-sdk-4.7.0.aar" target-dir="libs" />
+     </platform>
+
+     <platform name="ios">
+         <framework src="Bolts.framework" custom="true" />
+         <framework src="FBSDKCoreKit.framework" custom="true" />
+         <framework src="FBSDKLoginKit.framework" custom="true" />
+         <framework src="FBSDKMessengerShareKit.framework" custom="true" />
+         <framework src="FBSDKShareKit.framework" custom="true" />
+         <resource-file src="FacebookSDKStrings.bundle"/>
+    </platform>
+
+</plugin>
