@@ -2,15 +2,15 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-facebooksdk"
-        version="1.0.0">
+        id="cordova-facebook-sdk"
+        version="4.7.0">
       
     <name>Facebook SDK for Cordova</name>
     <description>Add Facebook SDK to Cordova porject, as dependency for other plugins</description>
-    <author>Google</author>
+    <author>Facebook</author>
     <keywords>rjfun,cordova,facebook,sdk</keywords>
-    <repo>https://github.com/floatinghotpot/cordova-facebooksdk.git</repo>
-    <issue>https://github.com/floatinghotpot/cordova-facebooksdk/issues</issue>
+    <repo>https://github.com/floatinghotpot/cordova-facebook-sdk.git</repo>
+    <issue>https://github.com/floatinghotpot/cordova-facebook-sdk/issues</issue>
 
     <engines>
         <engine name="cordova" version=">=3.0" />

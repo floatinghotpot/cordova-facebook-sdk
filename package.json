@@ -1,9 +1,9 @@
 {
-  "name": "cordova-facebooksdk",
-  "version": "1.0.0-beta",
+  "name": "cordova-facebook-sdk",
+  "version": "4.7.0",
   "description": "Add Facebook SDK to Cordova porject, as dependency for other plugins",
   "cordova": {
-    "id": "cordova-facebooksdk",
+    "id": "cordova-facebook-sdk",
     "platforms": [
       "android",
       "amazon-fireos",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/floatinghotpot/cordova-facebooksdk.git"
+    "url": "https://github.com/floatinghotpot/cordova-facebook-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/floatinghotpot/cordova-facebooksdk/issues"
+    "url": "https://github.com/floatinghotpot/cordova-facebook-sdk/issues"
   },
   "keywords": [
     "cordova",
