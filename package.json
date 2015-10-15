@@ -1,6 +1,6 @@
 {
   "name": "cordova-facebook-sdk",
-  "version": "4.7.0",
+  "version": "4.7.1",
   "description": "Add Facebook SDK to Cordova porject, as dependency for other plugins",
   "cordova": {
     "id": "cordova-facebook-sdk",
