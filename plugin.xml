@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-facebook-sdk"
-        version="4.7.1">
+        version="4.7.2">
       
     <name>Facebook SDK for Cordova</name>
     <description>Add Facebook SDK to Cordova porject, as dependency for other plugins</description>
@@ -17,19 +17,12 @@
     </engines>
 
     <platform name="android">
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <!-- add to manifest header: xmlns:tools="http://schemas.android.com/tools" -->
-            <uses-sdk tools:overrideLibrary="com.facebook"/>
-        </config-file>
-        <resource-file src="src/android/facebook-android-sdk-4.7.0.aar" target="libs/facebook-android-sdk-4.7.0.aar"/>
         <framework src="src/android/fb-sdk.gradle" custom="true" type="gradleReference" />
      </platform>
      
     <platform name="amazon-fireos">
         <!-- amazon-fireos still using ant, so maybe this will not work -->
-        <resource-file src="src/android/facebook-android-sdk-4.7.0.aar" target="libs/facebook-android-sdk-4.7.0.aar"/>
         <framework src="src/android/fb-sdk.gradle" custom="true" type="gradleReference" />
-/>
      </platform>
 
      <platform name="ios">

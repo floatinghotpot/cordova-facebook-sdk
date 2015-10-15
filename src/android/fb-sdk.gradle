@@ -1,12 +1,12 @@
-repositories{    
-  jcenter()
-  flatDir{
-      dirs 'libs'
-   }
+repositories {
+    mavenCentral()
 }
 
 dependencies {
-   compile(name:'facebook-android-sdk-4.7.0', ext:'aar')
+  // Android SDK
+  compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+  // Audience Network SDK
+  //compile 'com.facebook.android:audience-network-sdk:4.7.0'
 }
 
 android {
